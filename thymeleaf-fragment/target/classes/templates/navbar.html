@@ -1,0 +1,13 @@
+<div th:fragment="parent">
+	<h1>Navbar</h1>
+	<h1>
+		Thymleaf-fragment
+	</h1>
+	  <form th:action="@{/about}" method="post">
+        <button type="submit">About Page </button>
+    </form>
+    <br>
+    <form th:action="@{/}" method="post">
+        <button type="submit">Home Page </button>
+    </form>
+</div>
